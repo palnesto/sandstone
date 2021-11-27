@@ -1,0 +1,173 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:#FFF;
+}
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: tomato;
+    background-image:none
+}
+.banner {
+	/*-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center; */
+	background-repeat: no-repeat;
+	
+    height: 50%;
+    width: 50%;
+    margin-left: 30rem;
+    padding-left: 15rem;
+    padding-top: 10%;
+}
+.carousel-control.left {
+    background-image: none;
+    margin-top: 2rem;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: rgb(198,156 ,108 );
+    border-color: rgb(198,156 ,108 );
+}
+.carousel-indicators li{
+    border: 1px solid rgb(196,196,196);
+
+}
+.glyphicon-chevron-left:before {
+    content: "Prev";
+    padding-left: 60rem;
+}
+.glyphicon-chevron-right:before {
+    content: "Next";
+}
+.carousel-control {
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    left: 0;
+    
+    color: rgb(198,156 ,108 );
+}
+.carousel-inner .item{
+    height: 100vh;
+    align-items: center;
+}
+.item img{
+  
+    margin-left: 30rem;
+    padding-left: 15rem;
+    padding-top: 10%;    
+}
+.carousel-caption h2, .carousel-caption li, .carousel-caption p{
+    color: #000;
+}
+.carousel-caption p{
+    text-align: justify;
+}
+.carousel-caption button{
+    color: rgb(198,156 ,108 );
+    border-color: rgb(198,156 ,108 );
+    padding: 1rem 2rem;
+}
+ol,ul{
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 767px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse{
+        
+        color:#FFF
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: rgb(198,156 ,108 );
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a {
+        background-color: #FFF;
+        color: rgb(198,156 ,108 );
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+        background-image: none;
+       
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a{
+        color: rgb(198,156 ,108 );
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+        color: #FFF;
+        background-color: rgb(198,156 ,108 );
+    }
+    .item img{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .carousel-indicators {
+        bottom: 52%!important;
+    }
+    .carousel-caption {
+        top: 43%!important;
+        width: inherit!important;
+    }
+    .carousel-inner>.item>img {
+        width: 100%;
+    }
+    .glyphicon-chevron-left:before {
+        padding-left: 17rem;
+    }
+    .carousel-control.left {
+        margin-top: 8rem;
+    }
+   .carousel-caption{
+    right:5%;
+    left:5%;
+   }
+   .carousel-caption button{
+       padding:5px 8px;
+       margin: 4px 8px;
+    
+   }
+   .carousel-control .glyphicon-chevron-right {
+    right: 40%;
+   }
+  .button{
+      border-radius: 12px;
+      background: white;;
+  }
+    .carousel-caption .about-heading{
+        font-size: 17px;
+        padding-bottom: 0;
+    }
+    .carousel-caption .about-para{
+        font-size: 9px;
+    }
+    .carousel-control.right {
+        padding-right: 41rem;
+  
+    }
+
+    .carousel-caption h2{
+        padding-bottom: 6px;
+    }
+    .carousel-caption h2{
+        font-size: 18px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
+    .carousel-caption a{
+        padding: 10px 25px;
+    }
+    .carousel-indicators{
+        bottom: 25rem;
+    }
+    
+}
