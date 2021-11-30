@@ -131,10 +131,10 @@ ol,ul{
         padding-left: 0;
     }
     .carousel-indicators {
-        bottom: 52%!important;
+        bottom: 54%!important;
     }
     .carousel-caption {
-        top: 43%!important;
+        top: 41%!important;
         width: inherit!important;
     }
     .carousel-inner>.item>img {
