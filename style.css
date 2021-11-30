@@ -71,15 +71,18 @@ margin-bottom: 0!important;
     color: rgb(198,156 ,108 );
 }
 .carousel-inner .item{
-    height: 88vh;
+    height: 90vh;
     align-items: center;
 }
 .item img{
     text-align: center;
     padding-top: 4%;
-    height: 38%!important;
-    
+    height: 40%!important; 
 }
+a{
+    color:#C69C6C;
+}
+
 .btn-primary1{
     color: white;
     background-color: #E33D00;
@@ -95,6 +98,7 @@ margin-bottom: 0!important;
     border-color: rgb(198,156 ,108 );
     padding: 1rem 2rem;
 }
+
 ol,ul{
     text-align: justify;
 }
@@ -129,6 +133,7 @@ ol,ul{
     .item img{
         margin-left: 0;
         padding-left: 0;
+  
     }
     .carousel-indicators {
         bottom: 54%!important;
@@ -150,7 +155,16 @@ ol,ul{
        padding:5px 8px;
        margin: 4px 8px;   
    }
-
+.button1:active{
+    border:1px solid #C69C6C;
+    padding: 8px 20px;
+}
+.button1:hover{
+    border:1px solid #C69C6C;
+    padding: 8px 20px;
+    padding-top: 5px!important;
+    color:#C69C6C;
+}
   .button{
       border-radius: 12px;
       background: white;;
