@@ -15,6 +15,9 @@ margin-bottom: 0!important;
     margin-left: 25%;
     top: 98%;
 }
+.carousel-caption{
+    text-shadow: none;
+}
  .container > a{
     text-align: center;
  color:#C69C6C;    
@@ -68,14 +71,17 @@ margin-bottom: 0!important;
     color: rgb(198,156 ,108 );
 }
 .carousel-inner .item{
-    height: 100vh;
+    height: 95vh;
     align-items: center;
 }
 .item img{
-  
-    margin-left: 30rem;
-    padding-left: 15rem;
-    padding-top: 10%;    
+
+    padding-top: 4%;
+    
+}
+.btn-primary1{
+    color: white;
+    background-color: #E33D00;
 }
 .carousel-caption h2, .carousel-caption li, .carousel-caption p{
     color: #000;
