@@ -47,6 +47,7 @@ margin-bottom: 0!important;
 .carousel-control.right {
     background-image: none;
 }
+
 .carousel-indicators .active{
     background-color: rgb(198,156 ,108 );
     border-color: rgb(198,156 ,108 );
@@ -59,6 +60,9 @@ margin-bottom: 0!important;
     content: "Prev";
   
 }
+.some > img{
+    transform:none!important;
+}
 .glyphicon-chevron-right:before {
     content: "Next";
 }
@@ -70,13 +74,11 @@ margin-bottom: 0!important;
     
     color: rgb(198,156 ,108 );
 }
-.carousel-inner .item{
-    height: 100vh;
-    align-items: center;
-}
+
 .item img{
     text-align: center;
     padding-top: 4%;
+    margin-left: 35rem;
 
 }
 a{
@@ -104,7 +106,88 @@ ol,ul{
 }
 
 
+@media only screen and (min-width:1024px) {
+
+    .some1 {
+        visibility: hidden;
+    }
+    .carousel-indicators{
+        transform: rotate(90deg);
+        left: 15%;
+    }
+    .carousel-inner .item{
+        height: 160vh;
+        align-items: center;
+    }
+    ol.carousel-indicators{
+        margin-bottom: 30rem;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        width: 53%;
+        height: 59%;
+    }
+    .item img{
+        padding-top: 2%;
+        margin-left: 43rem;
+    }
+    .group{
+        margin-left: 0;
+        padding-right: 5rem;
+    }
+    .carousel-caption{
+        left: 0;
+        top: 58%;
+    }
+    .carousel-caption p{
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+    .epilogue-para{
+        margin-left: 42rem;
+    }
+    .carousel-caption h2{
+        margin-left: 13rem;
+    }
+    .para h2{
+    text-align: center;
+    }
+    .carousel-caption ul{
+        margin-left: 40rem;
+        font-size: 2rem;
+    }
+    .carousel-caption .group{
+        top: 36rem;
+    }
+    .carousel-caption .flow{
+        display: flex;
+        left: 0;
+    }
+    .wrap{
+        left: 30rem;
+    }
+    .number{
+        margin-left: 6rem;
+        width: 60%;
+        height: 66%;
+        margin-top: 3rem;
+    }
+    .para{
+        margin-left: 20rem;
+    }
+    button{
+        border-radius: 8px;
+    }
+    
+}
+
 @media only screen and (max-width: 767px){
+    .some {
+        visibility: hidden;
+    }
+    .carousel-inner .item{
+        height: 100vh;
+        align-items: center;
+    }
     .navbar-inverse .navbar-brand{
         font-size: 30px;
         padding: 20px 15px;
@@ -176,9 +259,6 @@ ol,ul{
     .carousel-caption .about-para{
         font-size: 9px;
     }
-    
-    }
-
     .carousel-caption h2{
         padding-bottom: 6px;
     }
