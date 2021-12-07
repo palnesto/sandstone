@@ -2,9 +2,12 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 .navbar{
-text-align: center;
+
 margin-bottom: 0!important;
 
+}
+h2{
+    font-family: 'Glyphicons Halflings';
 }
 .navbar::after{
     position: absolute;
@@ -18,11 +21,7 @@ margin-bottom: 0!important;
 .carousel-caption{
     text-shadow: none;
 }
- .container > a{
-    text-align: center;
- color:#C69C6C;    
-    }
-    
+
 
 .navbar-inverse{
     background-color: transparent;
@@ -75,12 +74,6 @@ margin-bottom: 0!important;
     color: rgb(198,156 ,108 );
 }
 
-.item img{
-    text-align: center;
-    padding-top: 4%;
-    margin-left: 35rem;
-
-}
 a{
     color:#C69C6C;
 }
@@ -105,55 +98,70 @@ ol,ul{
     text-align: justify;
 }
 
-
+@media (min-width: 1200px){
+.container {
+    width: 696px;
+}
+}
 @media only screen and (min-width:1024px) {
+    
+.item img{
+    text-align: center;
+    padding-top: 1%;
+    margin-left: 35rem;
 
+}
+
+
+.container > a{
+  padding-right: 10px;
+ color:#C69C6C;    
+    }
+    
+    .some >button{
+        margin-left: 40rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+   ;
+    }
     .some1 {
-        visibility: hidden;
+       display: none;
     }
     .carousel-indicators{
         transform: rotate(90deg);
         left: 15%;
     }
     .carousel-inner .item{
-        height: 160vh;
-        align-items: center;
+        height: 100vh;
+    
+
     }
     ol.carousel-indicators{
         margin-bottom: 30rem;
     }
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-        width: 53%;
-        height: 59%;
-    }
-    .item img{
-        padding-top: 2%;
-        margin-left: 43rem;
-    }
+ .center{
+    margin-left: 30rem;
+ }
+ .middle{
+    margin-left: 35rem;
+ }
     .group{
         margin-left: 0;
         padding-right: 5rem;
     }
     .carousel-caption{
         left: 0;
-        top: 58%;
+        top: 45%;
     }
-    .carousel-caption p{
-        margin-left: 2rem;
-        font-size: 2rem;
-    }
+  
     .epilogue-para{
         margin-left: 42rem;
     }
-    .carousel-caption h2{
-        margin-left: 13rem;
-    }
-    .para h2{
-    text-align: center;
-    }
+
+
     .carousel-caption ul{
-        margin-left: 40rem;
-        font-size: 2rem;
+        margin-left: 35rem;
+        font-size: 1.8rem;
     }
     .carousel-caption .group{
         top: 36rem;
@@ -177,12 +185,46 @@ ol,ul{
     button{
         border-radius: 8px;
     }
+    .button1:active{
+        border:1px solid #C69C6C;
+        padding: 8px 20px;
+    }
+    .button1:hover{
+        border:1px solid #C69C6C;
+        padding: 20px 20px;
+        padding-top: 5px!important;
+        color:#C69C6C;
+    }
+    .button1{
+        width: 100px!important;
+        height: 60px!important;
+
+    }
+      .button{
+          border-radius: 12px;
+          background: white;;
+      }
     
 }
 
 @media only screen and (max-width: 767px){
+    .container > a{
+        text-align: center;
+     color:#C69C6C;    
+        }
+        .navbar{
+            text-align: center;
+        }
+          
+.item img{
+    text-align: center;
+    padding-top: 4%;
+    margin-left: 35rem;
+
+}
     .some {
-        visibility: hidden;
+        display: none;
+
     }
     .carousel-inner .item{
         height: 100vh;
