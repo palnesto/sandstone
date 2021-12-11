@@ -98,11 +98,7 @@ ol,ul{
     text-align: justify;
 }
 
-@media (min-width: 1200px){
-.container {
-    width: 696px;
-}
-}
+
 @media only screen and (min-width:1024px) {
     
 .item img{
@@ -111,25 +107,45 @@ ol,ul{
     margin-left: 35rem;
 
 }
+.carousel-caption p{
+    width: 83%;
+}
+.small{
+    display: none!important;
+    }
+.left{
+    text-align: left;
+}
+.side{
+    padding-left: 19%;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 50px;
+}
 
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 100px;
+}
 
 .container > a{
   padding-right: 10px;
  color:#C69C6C;    
     }
-    
+   
     .some >button{
         margin-left: 40rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-   ;
     }
     .some1 {
        display: none;
     }
+    .some3 {
+        display: none;
+     }
     .carousel-indicators{
         transform: rotate(90deg);
-        left: 15%;
+        left: 5%;
     }
     .carousel-inner .item{
         height: 100vh;
@@ -176,7 +192,6 @@ ol,ul{
     .number{
         margin-left: 6rem;
         width: 60%;
-        height: 66%;
         margin-top: 3rem;
     }
     .para{
@@ -208,6 +223,9 @@ ol,ul{
 }
 
 @media only screen and (max-width: 767px){
+    .big{
+        display: none!important;
+        }
     .container > a{
         text-align: center;
      color:#C69C6C;    
