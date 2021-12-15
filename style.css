@@ -99,13 +99,16 @@ ol,ul{
 }
 
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1000px) {
     
 .item img{
     text-align: center;
     padding-top: 1%;
-    margin-left: 35rem;
+    margin-left: 26%;
 
+}
+.big{
+    width: 48%;
 }
 .carousel-caption p{
     width: 83%;
@@ -113,14 +116,17 @@ ol,ul{
 .small{
     display: none!important;
     }
+.small-m{
+        display: none!important;
+        }
 .left{
     text-align: left;
 }
 .side{
-    padding-left: 19%;
+    padding-left: 23%;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
@@ -133,9 +139,10 @@ ol,ul{
     }
    
     .some >button{
-        margin-left: 40rem;
+     display: block;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        margin-left: 33%;
     }
     .some1 {
        display: none;
@@ -167,7 +174,7 @@ ol,ul{
     }
     .carousel-caption{
         left: 0;
-        top: 45%;
+        top: 40%;
     }
   
     .epilogue-para{
@@ -176,7 +183,7 @@ ol,ul{
 
 
     .carousel-caption ul{
-        margin-left: 35rem;
+        margin-left: 25%;
         font-size: 1.8rem;
     }
     .carousel-caption .group{
@@ -194,8 +201,13 @@ ol,ul{
         width: 60%;
         margin-top: 3rem;
     }
+    .number1{
+        margin-left: 6rem;
+        width: 90%;
+        margin-top: 3rem;
+    }
     .para{
-        margin-left: 20rem;
+        margin-left: 25%;
     }
     button{
         border-radius: 8px;
@@ -226,6 +238,9 @@ ol,ul{
     .big{
         display: none!important;
         }
+        .big-m{
+            display: none!important;
+            }
     .container > a{
         text-align: center;
      color:#C69C6C;    
