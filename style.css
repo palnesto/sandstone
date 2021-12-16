@@ -9,15 +9,7 @@ margin-bottom: 0!important;
 h2{
     font-family: 'Glyphicons Halflings';
 }
-.navbar::after{
-    position: absolute;
-    content: "";
-    height: 2px;
-    background-color: #C69C6C;
-    width: 50%;
-    margin-left: 25%;
-    top: 98%;
-}
+
 .carousel-caption{
     text-shadow: none;
 }
@@ -100,6 +92,15 @@ ol,ul{
 
 
 @media only screen and (min-width:1000px) {
+    .navbar::after{
+        position: absolute;
+        content: "";
+        height: 2px;
+        background-color: #C69C6C;
+        width: 50%;
+        margin-left: 25%;
+        top: 68%;
+    }
     
 .item img{
     text-align: center;
@@ -123,7 +124,8 @@ ol,ul{
     text-align: left;
 }
 .side{
-    padding-left: 23%;
+    padding-left: 21%;
+    padding-top: 5px;
 }
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: 100px;
@@ -174,7 +176,7 @@ ol,ul{
     }
     .carousel-caption{
         left: 0;
-        top: 40%;
+        top: 45%;
     }
   
     .epilogue-para{
@@ -231,10 +233,22 @@ ol,ul{
           border-radius: 12px;
           background: white;;
       }
+      .onlydesk{
+          padding-top: 5%;
+      }
     
 }
 
 @media only screen and (max-width: 767px){
+    .navbar::after{
+        position: absolute;
+        content: "";
+        height: 2px;
+        background-color: #C69C6C;
+        width: 50%;
+        margin-left: 25%;
+        top: 98%;
+    }
     .big{
         display: none!important;
         }
